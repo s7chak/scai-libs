@@ -9,6 +9,10 @@ pb = 'priceToBook'
 ev = 'enterpriseValue'
 ebitda = 'ebitda'
 eveb = 'ev/ebitda'
+
+past_score_needs = ['trailingPE', 'priceToBook', 'debtToEquity', 'enterpriseToEbitda']
+future_score_needs = ['forwardPE', 'forwardEps', 'pegRatio', 'earningsGrowth', 'revenueGrowth']
+
 uvs_needs = [pe,pb,ps,ev,ebitda,fpe]
 uvs_weights = {pe:10, pb: 10, ps: 10, eveb:30, fpe: 40}
 uvs_thresholds = {pe: [10,20], pb: [1,5], ps: [0.5,3], eveb: [1,10], fpe: [15,70]}
