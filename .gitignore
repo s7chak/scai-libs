@@ -79,4 +79,3 @@ dmypy.json
 cython_debug/
 inputs/
 ml-libs/outs
-.idea/
